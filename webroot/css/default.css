@@ -9,7 +9,8 @@ a {
 }
 
 .container {
-    padding: 12px;
+    padding-inline-start: 12px;
+    padding-inline-end: 12px;
 }
 
 @media (min-width: 1114px) {
@@ -17,5 +18,4 @@ a {
         max-width: 1114px;
         margin: auto;
     }
-    header>div {}
 }

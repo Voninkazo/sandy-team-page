@@ -34,4 +34,17 @@ h2 {
     color: var(--default-color);
 }
 
-@media (min-width: 1114px) {}
+@media (min-width: 1114px) {
+    .introduction_paragraph {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    header>div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-block-start: calc(110px - calc(38px / 2));
+        column-gap: 215px;
+        padding-inline-end: 0;
+        padding-inline-start: 0;
+    }
+}
