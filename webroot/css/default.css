@@ -7,3 +7,15 @@ a {
     display: block;
     text-decoration: none;
 }
+
+.container {
+    padding: 12px;
+}
+
+@media (min-width: 1114px) {
+    .container {
+        max-width: 1114px;
+        margin: auto;
+    }
+    header>div {}
+}

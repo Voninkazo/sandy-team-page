@@ -15,7 +15,7 @@
 }
 
 ont-face {
-    font-family: 'Poppins-bold';
+    font-family: 'poppins';
     src: url('../fonts/poppins-bold.woff2') format('woff2'), url('../fonts/poppins-bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
